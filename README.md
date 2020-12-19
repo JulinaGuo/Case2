@@ -182,8 +182,7 @@ plt.title('JPM_America_Equity')
 ```
 ![](https://i.imgur.com/6Y17x8K.png)
 
-5. future trend
+5. future trend ( use future trend to re-construct portfolio )
 ![](https://i.imgur.com/MPV6GRU.png)
 
-6.
 
