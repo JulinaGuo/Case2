@@ -1,5 +1,7 @@
 # Case2: Price prediction and Funds set based on scenario analysis
 
+### Overview
+The purpose of the project is to predict the future trend of different funds. Based on scenario analysis and client's requirement, we can later design customized portfolio set.
 
 ### Data cleaning
 ```
