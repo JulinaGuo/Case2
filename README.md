@@ -1,8 +1,7 @@
-# Case2
-Price prediction and Funds set based on scenario analysis
+# Case2: Price prediction and Funds set based on scenario analysis
 
 
-1. data cleaning
+### Data cleaning
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,7 +14,7 @@ sample = sample.dropna()
 pct_change = sample.pct_change().dropna()
 ```
 
-2. client's debt:shock 70:30 preferrence
+### Client's debt:shock 70:30 preferrence
 ```
 sample_equity = pd.DataFrame()
 sample_equity['JPM_America_Equity'] = sample['JPM_America_Equity']
@@ -74,7 +73,7 @@ plt.title('Mean-Variance Analysis of Portfolios')
 plt.grid()
 ```
 
-3. recommend portfolio is debt:stock 20:80
+### Recommended portfolio is debt:stock 20:80
 ```
 # 新的資產配置比例 (based on historical data)
 import cvxopt as opt
@@ -120,7 +119,7 @@ plt.grid()
 ```
 ![](https://i.imgur.com/0jJUuCs.png)
 
-4. single fund prediction
+### Single fund prediction
 ```
 # JPM_America_Equity 
 
@@ -182,7 +181,7 @@ plt.title('JPM_America_Equity')
 ```
 ![](https://i.imgur.com/6Y17x8K.png)
 
-5. future trend ( use future trend to re-construct portfolio )
+### Future trend ( use future trend to re-construct portfolio )
 ![](https://i.imgur.com/MPV6GRU.png)
 
 
